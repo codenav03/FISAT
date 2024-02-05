@@ -2,22 +2,29 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('images/compbg.jpg'); /* Replace with your background image path or URL */
+    background-image: url('images/hihi.webp'); /* Replace with your background image path or URL */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: #fff; /* Set text color to contrast with the background */
+    color: white; /* Set text color to contrast with the background */
     text-align: center;
 }
+#textc {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: hsl(0, 11%, 82%); /* Set the text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow for a 3D effect */
+  }
 header {
-    background-color: #255e6b;
-    color: #fff;
+    background-color: #540C20;
+    color: white;
     text-align: center;
     padding: 20px;
 }
 
 img {
     max-width: 50%;
+    border: 5px solid black; 
+    border-radius: 100px;
     height: auto;
     margin-bottom: 20px;
     width: 200px;
@@ -30,19 +37,19 @@ h1 {
  .contact {
     margin: 20px;
     padding: 20px;
-    border: 2px solid #fff; /* Add border around the About Me section */
+    border: 5px solid white; 
     border-radius: 10px; 
 }
 
 .about {
     margin: 20px;
     padding: 20px;
-    border: 2px solid #fff; 
+    border: 5px solid white; 
     border-radius: 10px; 
 }
 .hobbies {
     margin: 20px;
     padding: 20px;
-    border: 2px solid #fff;
+    border: 5px solid white;
     border-radius: 10px; 
 }
