@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/compbg.jpg'); /* Replace with your background image path or URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Set text color to contrast with the background */
+    text-align: center;
+}
+header {
+    background-color: #255e6b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+}
+h1 {
+    margin: 0;
+}
+
+ .contact {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #fff; /* Add border around the About Me section */
+    border-radius: 10px; 
+}
+
+.about {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #fff; 
+    border-radius: 10px; 
+}
+.hobbies {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px; 
+}
